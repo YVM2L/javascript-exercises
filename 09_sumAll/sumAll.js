@@ -10,9 +10,11 @@ const sumAll = function(min, max) {
     let sum = 0;
     for (let i = min; i <= max; i++) { //считаем сумму
         sum += i;
+        console.log(i, sum); //можно увидеть процесс суммирования
     }
     return sum
 };
+
 console.log(sumAll(1, 4));
 console.log(sumAll(-1, 10));
 
